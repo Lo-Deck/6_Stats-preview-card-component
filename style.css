@@ -48,13 +48,13 @@ section{
 
 /*SECTION1*/
 
-section.text p.heading{
+section.text h1.heading{
     color: hsl(0, 0%, 100%);
     font-size: 2.4rem;
     font-weight: 700;
 }
 
-section.text p.heading span{
+section.text h1.heading span{
     color: hsl(277, 64%, 61%);
 }
 
@@ -67,18 +67,18 @@ section.text p.paragraph{
 
 /*SECTION2*/
 
-section.info p{
+p.info{
     display: flex;
     flex-direction: column;
 }
 
-section.info p span:nth-child(2n+1){
+p.info span:nth-child(2n+1){
     color: hsl(0, 0%, 100%);
     font-size: 2.1rem;
     font-weight: 700;   
 }
 
-section.info p span:nth-child(2n+2){
+p.info span:nth-child(2n+2){
     font-family: 'Lexend Deca', sans-serif;
     font-size: 1.1rem;
     color: hsla(0, 0%, 100%, 0.6);
@@ -114,28 +114,28 @@ section.info p span:nth-child(2n+2){
 
     /*SECTION1*/
 
-    section.text p.heading{
+    section.text h1.heading{
         margin-top: 4.5rem;
         font-size: 2.8rem;
     }
 
-    section.text{
+    p.paragraph{
         margin-bottom: 5.0rem;
     }
 
     /*SECTION2*/
 
-    section.info p{
+    p.info{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr;
     }
 
-    section.info p span:nth-child(2n+1){
+    p.info span:nth-child(2n+1){
         grid-row: 1;
     }
 
-    section.info p span:nth-child(2n+2){
+    p.info span:nth-child(2n+2){
         grid-row: 2;
         margin: 0.5rem 0 0;
     }
